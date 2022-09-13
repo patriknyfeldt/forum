@@ -1,0 +1,15 @@
+@import './variables.scss';
+@import './mixins.scss';
+.li{
+    @include flex(column, center, flex-start);
+    gap: 10px;
+    width: 90%;
+    padding: 20px;
+    border-radius: 5px;
+    list-style-type:none;
+    background-color: $light-blue;
+    border: 1px solid $dark-blue;
+    p{
+        letter-spacing: 0.05rem;
+    }
+}

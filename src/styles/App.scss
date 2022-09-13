@@ -1,0 +1,8 @@
+@import './variables.scss';
+*{
+    margin:0;
+}
+.App{
+    background: $dark-blue;
+    color: white;
+}
