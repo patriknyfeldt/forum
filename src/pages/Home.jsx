@@ -17,7 +17,7 @@ const Home = () => {
         <div className={styles.container}>
         <h1 className={styles.h1}>All Posts</h1>
         <ul className={styles.ul}>
-            {posts.map((post, i) => {
+            {posts && posts.map((post, i) => {
                 return (
                     <PostItem key={i} {...post}/>
                 )
